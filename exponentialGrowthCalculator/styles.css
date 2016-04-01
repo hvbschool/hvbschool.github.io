@@ -1,0 +1,39 @@
+.years input {
+  width: 50px;
+  margin-bottom: 10px;
+}
+.years {
+  margin-bottom: 10px;
+  float: left;
+  margin-right: 30px;
+  height: 50px;
+}
+.pops input {
+  margin-bottom: 10px;
+  width: 100px;
+}
+#firstY {
+  margin-left: 19px;
+}
+#firstPop{
+  margin-left: 19px;
+}
+.desired {
+  margin-top: 20px;
+}
+.desired input {
+  margin-bottom: 10px;
+}
+#desiredY {
+  width: 50px;
+}
+#button {
+  margin-bottom: 10px;
+  background-color: lightgray;
+  border: 1px black solid;
+  width: 35px;
+  height: 20px;
+}
+#finPop {
+  display: inline;
+}
