@@ -1,0 +1,22 @@
+#circleImg {
+  height: 200;
+  width: 200px;
+  float: left;
+  margin-right: 50px;
+}
+#input input {
+  width: 50px;
+  margin-bottom: 10px;
+}
+#input {
+  margin-top: 50px;
+}
+#solve {
+  height: 40px;
+  width: 80px;
+  background-color: lightgray;
+  border: 1px solid black;
+}
+#output {
+  float: left;
+}
