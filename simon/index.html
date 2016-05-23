@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<script src="assets\lib\jquery.js"></script>
+		<script src="script.js"></script>
+		<link href="styles.css" rel="stylesheet" type="text/css">
+		<link rel="icon" href="assets\img\icon.png">
+		<title>Simon</title>
+	</head>
+
+	<body>
+		<div id="container">
+			<div id="simonCont">
+				<div id="Red" class="color"></div>
+				<div id="Green" class="color"></div>
+				<div id="Blue" class="color"></div>
+				<div id="Yellow" class="color"></div>
+				<div id="center">
+				  	<p id="startText">Click Anywhere To Begin</p>
+					<p id="simon">SIMON</p>
+					<p id="stageText">001</p>
+				</div>
+			</div>
+			<div id="lose">
+				<h1 id="youLoseText">You Lose!</h1>
+				<p id="correctSequence">Correct Sequence was: </p>
+				<button onclick="location.reload()">PLAY AGAIN!</button>
+			</div>
+	</body>
+</html>
